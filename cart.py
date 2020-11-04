@@ -33,9 +33,6 @@ class Baraja:
                 print(cartas)
       print()
 
-def __init__(self):
-    
-
 Baraja = Baraja()
 Baraja.mostrar_baraja()
 
