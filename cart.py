@@ -1,8 +1,8 @@
-picas = "\u2660"
+pica = "\u2660"
 corazon = "\u2665"
-diamantes = "\u2666"
+diamante = "\u2666"
 trebol = "\u2663"
-
+import random
 
 class Carta:
 
@@ -15,7 +15,7 @@ class Carta:
 
 class Baraja:
     def __init__(self):
-        palo = ["\u2660","\u2665","\u2666", "\u2663"]
+        palo = [pica, corazon, diamante, trebol]
         tantos = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
         self.mazo = []
         for j in tantos:
@@ -32,6 +32,9 @@ class Baraja:
             else:
                 print(cartas)
       print()
+
+def __init__(self):
+    
 
 Baraja = Baraja()
 Baraja.mostrar_baraja()
